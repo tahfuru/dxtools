@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "heroku-postbuild": "cd frontend && yarn install && yarn run build"
+  }
+}
